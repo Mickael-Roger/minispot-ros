@@ -5,3 +5,4 @@ evdev
 smbus
 PyOpenGL
 PyOpenGL_accelerate
+pygame

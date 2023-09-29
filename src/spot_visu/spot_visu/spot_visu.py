@@ -203,8 +203,18 @@ class Cube(object):
 
         glEnd()
 
+
+def main(args=None):
+    rclpy.init(args=args)
+
+    visu_sub = Position()
+
+    rclpy.spin(visu_sub)
+
+    # Destroy the node explicitly
+    # (optional - otherwise it will be done automatically
+    # when the garbage collector destroys the node object)
+    visu_sub.destroy_node()
+    rclpy.shutdown()
+
  
-
-if __name__ == "__main__":
-
-    run()
