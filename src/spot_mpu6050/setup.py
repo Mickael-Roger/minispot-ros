@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'py_mpu6050'
+package_name = 'spot_mpu6050'
 
 setup(
     name=package_name,
@@ -14,13 +14,13 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='pi',
-    maintainer_email='pi@todo.todo',
+    maintainer_email='mickael@mickael-roger.com',
     description='TODO: Package description',
-    license='TODO: License declaration',
+    license='MIT',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'spotgyro = py_mpu6050.spotgyro:main'
+            'spot_mpu6050 = spot_mpu6050.spot_mpu6050:main'
         ],
     },
 )
