@@ -1,0 +1,3 @@
+<launch>
+<node pkg="spot_mpu6050" name="spot_mpu6050" exec="spot_mpu6050" />
+</launch>
