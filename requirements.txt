@@ -3,3 +3,5 @@ RPi.GPIO
 posix-ipc
 evdev
 smbus
+PyOpenGL
+PyOpenGL_accelerate

@@ -24,7 +24,7 @@ class SpotGyro(Node):
         self.angleFront=0.
         self.angleSide=0.
 
-        super().__init__('mpu6050')
+        super().__init__('spot_mpu6050')
         self.publisher_ = self.create_publisher(String, 'gyro', 10)
 
         timer_period = LOOP_TIME_S
