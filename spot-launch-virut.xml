@@ -1,4 +1,6 @@
 <launch>
 <node pkg="spot_mpu6050" name="spot_mpu6050" exec="spot_mpu6050" />
 <node pkg="spot_gamepad" name="spot_gamepad" exec="spot_gamepad" />
+
+<node pkg="spot_visu" name="spot_visu" exec="spot_visu" />
 </launch>
